@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "board-game"
+version = "0.1.0"
+description = "Backend Integration with board game"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "board_game"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.100.1"
+uvicorn = {extras = ["standard"], version = "^0.23.2"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
