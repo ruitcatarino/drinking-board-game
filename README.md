@@ -1,2 +1,2 @@
 # board-game
-Backend INtegration with board game
+Backend Integration with board game
