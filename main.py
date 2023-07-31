@@ -45,7 +45,7 @@ def get_azar():
 @app.get("/sorte")
 def get_sorte():
     choice = return_dict_rand(sorte)
-    print{choice["item"]:choice["description"]}
+    return {choice["item"]: choice["description"]}
 
 
 @app.get("/misterio")
@@ -54,7 +54,6 @@ def get_misterio():
 
 
 def return_dict_rand(dicty):
-    random.seed(datetime.now().timestamp())
     probabilities = [item["probability"] for item in dicty]
     random_index = random.choices(range(len(dicty)), weights=probabilities)[0]
     chosen_item_dicty = dicty[random_index]
