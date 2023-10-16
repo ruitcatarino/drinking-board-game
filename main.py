@@ -149,11 +149,23 @@ misterio = [
 
 @app.get("/")
 def welcome():
+    """
+    Display a welcome page.
+
+    Returns:
+        HTMLResponse: An HTML response displaying a welcome message.
+    """
     return HTMLResponse(content=html_main(), status_code=200)
 
 
 @app.get("/azar")
 def get_azar():
+    """
+    Get a random 'azar' item and display it as an HTML response.
+
+    Returns:
+        HTMLResponse: An HTML response displaying a random 'azar' item.
+    """
     html_content = return_dict_parse(
         azar, "https://i.ibb.co/9h1v5LK/bad-luck-1176087376.jpg"
     )
@@ -162,17 +174,39 @@ def get_azar():
 
 @app.get("/sorte")
 def get_sorte():
+    """
+    Get a random 'sorte' item and display it as an HTML response.
+
+    Returns:
+        HTMLResponse: An HTML response displaying a random 'sorte' item.
+    """
     html_content = return_dict_parse(sorte, "https://i.ibb.co/gr90HJJ/sorte.png")
     return HTMLResponse(content=html_content, status_code=200)
 
 
 @app.get("/misterio")
 def get_misterio():
+    """
+    Get a random 'misterio' item and display it as an HTML response.
+
+    Returns:
+        HTMLResponse: An HTML response displaying a random 'misterio' item.
+    """
     html_content = return_dict_parse(misterio, "https://i.ibb.co/1msVT88/mistery.png")
     return HTMLResponse(content=html_content, status_code=200)
 
 
 def return_dict_parse(dicty, icon_url):
+    """
+    Randomly select an item from a given list and generate HTML content.
+
+    Args:
+        dicty (list): A list of items to choose from.
+        icon_url (str): URL of the icon to display in the HTML response.
+
+    Returns:
+        str: HTML content displaying a randomly selected item.
+    """
     probabilities = [item["probability"] for item in dicty]
     random_index = random.choices(range(len(dicty)), weights=probabilities)[0]
     chosen_item_dicty = dicty[random_index]
