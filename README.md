@@ -7,6 +7,7 @@ The Drinking Board Game Card API is a digital solution that brings the classic b
 - [Key Features](#key-features)
 - [Customization](#customization)
 - [License](#license)
+- [Disclaimer](#disclaimer)
 
 ## Overview
 
@@ -27,3 +28,7 @@ You can customize the types of cards and rules within the API to align with your
 ## License
 
 This project is open-source and available under the [MIT License](LICENSE.md). You are free to use, modify, and distribute it in accordance with the license terms.
+
+## Disclaimer
+
+This project is intended for entertainment purposes only. Excessive alcohol consumption can be harmful to health and may lead to dangerous situations. I do not endorse or encourage excessive drinking, and I strongly advise responsible behavior. Please enjoy this game responsibly, and ensure that all participants drink within their limits. Drink in moderation and never drink and drive. It's essential to prioritize your safety and well-being.
