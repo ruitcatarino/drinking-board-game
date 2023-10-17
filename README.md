@@ -1,4 +1,4 @@
-# Drinking Board Game Card API
+# 🎮 Drinking Board Game Card API
 
 The Drinking Board Game Card API is a digital solution that brings the classic board game experience to your devices. Designed to reduce paper waste and enhance your gaming experience, this API allows you and your friends to draw cards online for a fun and eco-friendly gaming session.
 
