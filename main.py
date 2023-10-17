@@ -264,7 +264,7 @@ def html_main():
     <body>
         <div class="d-flex justify-content-center align-items-center flex-column vh-100">
             <div class="container" style="min-height: 100%;">
-                <h2 class="my-4">Welcome to the best Drinking Game, Pitos!</h2>
+                <h2 class="my-4">Welcome to the best Drinking Game!</h2>
                 <div class="row justify-content-center">
                     <div class="col-lg-4 col-md-6 col-sm-6 col-12" style="margin-bottom: 1rem;">
                         <div class="card text-center border-success mb-3" style="width: 18rem;">
