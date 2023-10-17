@@ -21,6 +21,34 @@ Instead of using physical cards, the Drinking Board Game Card API provides a con
 
 - **Customizable:** Tailor the card types and rules to suit your board game's unique requirements.
 
+## Usage Example
+
+The Drinking Board Game Card API allows you to draw different types of cards for your drinking board game. Here are the available routes:
+
+### Welcome Page
+
+- **Endpoint:** `/`
+- **Description:** Displays a welcome page with options to draw different types of cards.
+- **Usage:** Access the root endpoint to get started with your game.
+
+### 'Azar' Cards
+
+- **Endpoint:** `/azar`
+- **Description:** Get a random 'azar' card and display it.
+- **Usage:** Access this endpoint to draw an 'azar' card for unexpected challenges and surprises.
+
+### 'Sorte' Cards
+
+- **Endpoint:** `/sorte`
+- **Description:** Get a random 'sorte' card and display it.
+- **Usage:** Use this endpoint to draw a 'sorte' card for moments of good luck and advantage.
+
+### 'Misterio' Cards
+
+- **Endpoint:** `/misterio`
+- **Description:** Get a random 'misterio' card and display it.
+- **Usage:** Access this endpoint to draw a 'misterio' card, introducing an element of mystery and intrigue into your game.
+
 ## Customization
 
 You can customize the types of cards and rules within the API to align with your board game's specific requirements.
