@@ -26,4 +26,4 @@ You can customize the types of cards and rules within the API to align with your
 
 ## License
 
-This project is open-source and available under the MIT License. You are free to use, modify, and distribute it in accordance with the license terms.
+This project is open-source and available under the [MIT License](LICENSE.md). You are free to use, modify, and distribute it in accordance with the license terms.
