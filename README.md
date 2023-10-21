@@ -1,5 +1,7 @@
 # 🎮 Drinking Board Game Card API
 
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://spdx.org/licenses/MIT.html)
+
 The Drinking Board Game Card API is a digital solution that brings the classic board game experience to your devices. Designed to reduce paper waste and enhance your gaming experience, this API allows you and your friends to draw cards online for a fun and eco-friendly gaming session.
 
 ## Table of Contents
